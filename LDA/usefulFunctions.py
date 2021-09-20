@@ -36,4 +36,15 @@ def getData(filename):
             data.append(tweet.split("|"))
        return data
 
-
+def getTopWords(numbers, n): #Returns a list of size n containing the top 5 indexes of a given array
+    top_n_array = []
+    for i in range(len(numbers)):
+        p = numbers[i]
+        if p not in top_n_array: 
+            if len(top_n_array)<n:
+                top_n_array.append(p)
+            else:
+                minimum = min(top_n_array)
+                if p>minimum: 
+                    top_n_array[top_n_array.index(minimum)] = p
+    return top_n_array

@@ -99,6 +99,18 @@ def writeData(tweets):
     f.write("#####".join(add))
     f.close()
 
+def removeBlanks(tweets):
+    out=[]
+    for t in tweets: 
+        row=[]
+        for w in t: 
+            strip = "".join(w.split())
+            if strip!='':
+                row.append(strip)
+        if len(row)>0:
+            out.append(row)
+    return out
+
 
 
 tweets = getData()
@@ -108,6 +120,7 @@ tweets = removeShortWords(tweets)
 tweets = lemmatize(tweets)
 tweets = stem(tweets)
 tweets = stopwrds(tweets)
+tweets = removeBlanks(tweets)
 writeData(tweets)
 #printList(tweets)
 
