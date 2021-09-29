@@ -86,7 +86,6 @@ data = removeURL(data)
 data = removeTags(data)
 data = removeSpecialCharacters(data)
 data = lowerCase(data)
-printDataInNiceWay(data) 
 
 f = open("2_PreprocessedData.txt", "w")
 
