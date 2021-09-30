@@ -1,34 +1,29 @@
-totalTweets = 0
-totalLocation = 0
 
 import json
 
 f = open("SATweets.json", "w")
-f.write("{\"data\": [\n")
+
+json_entries = []
 
 def getSATweets(filename):
     with open(filename) as data_file:    
         d = json.load(data_file)
-        for tweet in d['data']:
-            global totalTweets
-            totalTweets+=1
+        for tweet in d:
+            #print(tweet)
             location = tweet['location']
             if "South Africa" in location:
                 global totalLocation
-                totalLocation += 1
-                json.dump(tweet,f)
-                f.write(",\n")
+                json_entries.append(tweet)
 
 import os
 
 for filename in os.listdir("/home/belinda/Desktop/HonoursProject/Project/Data"):
-    if filename.endswith(".json") and filename.startswith("tweet"): 
-        print(filename)
+    if filename.endswith(".json") and filename.startswith("dup"): 
+        #print(filename)
         getSATweets(filename)
         continue
     else:
         continue
-print(totalLocation)
-print(totalTweets)
-f.write("]}")
+
+json.dump(json_entries, f)
 f.close()

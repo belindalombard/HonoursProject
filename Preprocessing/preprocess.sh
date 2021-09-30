@@ -13,3 +13,4 @@ fi
 
 python3 4_PreprocessingForLDA.py 
 
+cp 4_PreprocessedData.txt ../LDA/input.txt

@@ -128,5 +128,5 @@ def LDA():
     for i in range(100):
         print("ITERATION NUMBER " + str(i))
         topic_word, tweet_topic, topic_assignment = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, 3, 3)
-    printTopicAssignment(topic_word, words, 2)
+    printTopicAssignment(topic_word, words, 3)
 LDA()

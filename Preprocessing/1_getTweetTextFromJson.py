@@ -11,11 +11,11 @@ sep = "#####"
 
 #Write tweet text to a raw format
 def writeTweets():
-    with open("OriginalSATweetset.json") as dfile: 
+    with open("data.json") as dfile: 
         d = json.load(dfile)
         listOfTweets=[]
         
-        for tweet in d['data']:
+        for tweet in d:
             #Need to see if seperator is in tweet text and remove it if it is
             text=tweet['text']
             check = False
