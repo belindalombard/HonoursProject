@@ -4,6 +4,9 @@ import numpy as np
 from usefulFunctions import numberOfWords
 from usefulFunctions import getDictionary
 from usefulFunctions import getTopWords
+from usefulFunctions import countConsistencyScore
+import sys
+
 def assignRandomTopics(data, T):
     topics = []
     #print(data)
@@ -54,7 +57,7 @@ def calculate_word_topic_prob(topic_word, beta, word_number, tweet_number, data,
     probability_den = number_of_words_in_tweet + dict_length*beta
     return probability_num/probability_den
 
-def reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alpha=0.5, beta=0.5): 
+def reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alpha=0.01, beta=0.3): 
     tweet_number = 0
     dict_length = len(words)
     reassign = 0  # NOT ESSENTIAL, TESTING
@@ -87,11 +90,14 @@ def reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alp
                 not_reassign += 1
             word_number += 1
         tweet_number +=1
+    
+    prop = float(reassign)/float(not_reassign+reassign)  
+    #print("Proportion of words reassigned: " + str(prop))
+    return topic_word, tweet_topic, topic_assignment, prop 
 
-    print("Proportion of words reassigned: " + str(float(reassign)/float(not_reassign+reassign)))
-    return topic_word, tweet_topic, topic_assignment
 
-def printTopicAssignment(topic_word, words, n=5): 
+#This method prints the topic assignments in a readable format
+def outputTopicAssignment(topic_word, words, n): 
     topic_number = 0
     for topic in topic_word:
         top_word_indexes = getTopWords(topic, n) 
@@ -99,34 +105,83 @@ def printTopicAssignment(topic_word, words, n=5):
         w = [] 
         for index in top_word_indexes: 
            w.append(words[int(index)])
-        print(str(topic_number) + " has words: " + str(w))      
+        print(str(topic_number) +": " + str(w))      
         topic_number+=1
+
+#This methods return the top n words for each topic
+def getTopicAssignment(topic_word, words, n): 
+    all_topics = []
+    for topic in topic_word:
+        top_word_indexes = getTopWords(topic, n) 
+        #print(top_word_indexes)
+        w = [] 
+        for index in top_word_indexes: 
+           w.append(words[int(index)])
+        all_topics.append(w)
+    return(all_topics) 
+
+
+def numberOfRunsEst(topic_word, tweet_topic, data, topic_assignment, T, words):
+    prop = 1
+    runs = 0
+    while (prop != 0): 
+        topic_word, tweet_topic, topic_assignment, prop = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, 0.01, 0.3)
+        runs += 1
+    print("Number of runs: " + str(runs) + 'for number of topics ' + str(T))
+
+
+def con(data, T, P, NumRuns = 20):
+    res = []
+    for i in range(10):
+        print(i)
+        print("LOOKING AT NUMBER OF RUNS")
+        topic_assignment = assignRandomTopics(data, T)
+        tweet_topic = createTweetTopicMatrix(T, topic_assignment) 
+        np.set_printoptions(threshold=np.inf)
+
+        #Get number of distinct words and the dictionary
+        dictionary = getDictionary(data)
+        words = list(dictionary.keys())
+        number_of_words = len(words)  
+        topic_word = createTopicWordMatrix(data, T, topic_assignment, number_of_words, words) 
+
+        for k in range(NumRuns): 
+            topic_word, tweet_topic, topic_assignment, prop = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, 0.01, 0.3)
+        res.append(getTopicAssignment(topic_word, words, P))
+    countConsistencyScore(res, P)
+          
 
 def LDA():
     data = getData("1_data.txt")
 
     #Get the number of topics
-    while True: 
-        try: 
-            T = int(input("Enter the number of topics: "))
-        except ValueError: 
-            print("Please enter a valid number")
-        else: 
-            break
+    if len(sys.argv) > 1: 
+        T = int(sys.argv[1])
+    else:
+        while True: 
+            try: 
+                T = int(input("Enter the number of topics: "))
+            except ValueError: 
+                print("Please enter a valid number")
+            else: 
+                break
+    if len(sys.argv) > 2:
+        arg = sys.argv[2]
+        if int(arg) == 0: 
+            print("LOOKING AT NUMBER OF RUNS")
+            topic_assignment = assignRandomTopics(data, T)
+            tweet_topic = createTweetTopicMatrix(T, topic_assignment) 
+            np.set_printoptions(threshold=np.inf)
 
-    topic_assignment = assignRandomTopics(data, T)
-    #print(topic_assignment)
-    tweet_topic = createTweetTopicMatrix(T, topic_assignment) 
-    np.set_printoptions(threshold=np.inf)
-    #print(tweet_topic)
+            #Get number of distinct words and the dictionary
+            dictionary = getDictionary(data)
+            words = list(dictionary.keys())
+            number_of_words = len(words)  
+            topic_word = createTopicWordMatrix(data, T, topic_assignment, number_of_words, words) 
+            numberOfRunsEst(topic_word, tweet_topic, data, topic_assignment, T, words)
 
-    #Get number of distinct words and the dictionary
-    dictionary = getDictionary(data)
-    words = list(dictionary.keys())
-    number_of_words = len(words)  
-    topic_word = createTopicWordMatrix(data, T, topic_assignment, number_of_words, words) 
-    for i in range(100):
-        print("ITERATION NUMBER " + str(i))
-        topic_word, tweet_topic, topic_assignment = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, 3, 3)
-    printTopicAssignment(topic_word, words, 3)
+        if int(arg) == 1:
+            P = int(sys.argv[3])
+            con(data, T, P, 5)
+         
 LDA()

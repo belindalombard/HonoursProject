@@ -39,7 +39,7 @@ def removeWords(dictionary,data):
     for tweet in data:
         new_tweet = []
         for word in tweet: 
-            if word in dictionary:
+            if (word) and (word in dictionary):
                 new_tweet.append(word)
         new_data.append(new_tweet)
     return new_data
