@@ -1,0 +1,265 @@
+
+
+ ------------------------------------------------ 
+RESULTS FOR 5 TOPICS AND 3 WORDS
+TOPIC 0: Score: 0
+TOPIC 1: Score: 1
+TOPIC 2: Score: 0
+TOPIC 3: Score: 0
+TOPIC 4: Score: 0
+TOTAL SCORE: 1 OUT OF 135
+
+ ------------------------------------------------ 
+RESULTS FOR 5 TOPICS AND 5 WORDS
+TOPIC 0: Score: 3
+TOPIC 1: Score: 3
+TOPIC 2: Score: 0
+TOPIC 3: Score: 2
+TOPIC 4: Score: 0
+TOTAL SCORE: 8 OUT OF 225
+
+ ------------------------------------------------ 
+RESULTS FOR 5 TOPICS AND 7 WORDS
+TOPIC 0: Score: 6
+TOPIC 1: Score: 0
+TOPIC 2: Score: 6
+TOPIC 3: Score: 6
+TOPIC 4: Score: 4
+TOTAL SCORE: 22 OUT OF 315
+
+ ------------------------------------------------ 
+RESULTS FOR 5 TOPICS AND 10 WORDS
+TOPIC 0: Score: 9
+TOPIC 1: Score: 8
+TOPIC 2: Score: 5
+TOPIC 3: Score: 1
+TOPIC 4: Score: 8
+TOTAL SCORE: 31 OUT OF 450
+
+ ------------------------------------------------ 
+RESULTS FOR 10 TOPICS AND 3 WORDS
+TOPIC 0: Score: 0
+TOPIC 1: Score: 1
+TOPIC 2: Score: 1
+TOPIC 3: Score: 0
+TOPIC 4: Score: 0
+TOPIC 5: Score: 1
+TOPIC 6: Score: 2
+TOPIC 7: Score: 1
+TOPIC 8: Score: 1
+TOPIC 9: Score: 0
+TOTAL SCORE: 7 OUT OF 270
+
+ ------------------------------------------------ 
+RESULTS FOR 10 TOPICS AND 5 WORDS
+TOPIC 0: Score: 1
+TOPIC 1: Score: 3
+TOPIC 2: Score: 0
+TOPIC 3: Score: 6
+TOPIC 4: Score: 3
+TOPIC 5: Score: 3
+TOPIC 6: Score: 10
+TOPIC 7: Score: 8
+TOPIC 8: Score: 3
+TOPIC 9: Score: 6
+TOTAL SCORE: 43 OUT OF 450
+
+ ------------------------------------------------ 
+RESULTS FOR 10 TOPICS AND 7 WORDS
+TOPIC 0: Score: 4
+TOPIC 1: Score: 8
+TOPIC 2: Score: 7
+TOPIC 3: Score: 3
+TOPIC 4: Score: 10
+TOPIC 5: Score: 15
+TOPIC 6: Score: 3
+TOPIC 7: Score: 10
+TOPIC 8: Score: 10
+TOPIC 9: Score: 14
+TOTAL SCORE: 84 OUT OF 630
+
+ ------------------------------------------------ 
+RESULTS FOR 10 TOPICS AND 10 WORDS
+TOPIC 0: Score: 9
+TOPIC 1: Score: 23
+TOPIC 2: Score: 14
+TOPIC 3: Score: 3
+TOPIC 4: Score: 10
+TOPIC 5: Score: 27
+TOPIC 6: Score: 22
+TOPIC 7: Score: 17
+TOPIC 8: Score: 35
+TOPIC 9: Score: 26
+TOTAL SCORE: 186 OUT OF 900
+
+ ------------------------------------------------ 
+RESULTS FOR 15 TOPICS AND 3 WORDS
+TOPIC 0: Score: 0
+TOPIC 1: Score: 0
+TOPIC 2: Score: 0
+TOPIC 3: Score: 0
+TOPIC 4: Score: 2
+TOPIC 5: Score: 0
+TOPIC 6: Score: 0
+TOPIC 7: Score: 1
+TOPIC 8: Score: 3
+TOPIC 9: Score: 1
+TOPIC 10: Score: 0
+TOPIC 11: Score: 0
+TOPIC 12: Score: 1
+TOPIC 13: Score: 1
+TOPIC 14: Score: 2
+TOTAL SCORE: 11 OUT OF 405
+
+ ------------------------------------------------ 
+RESULTS FOR 15 TOPICS AND 5 WORDS
+TOPIC 0: Score: 1
+TOPIC 1: Score: 2
+TOPIC 2: Score: 0
+TOPIC 3: Score: 5
+TOPIC 4: Score: 4
+TOPIC 5: Score: 1
+TOPIC 6: Score: 7
+TOPIC 7: Score: 4
+TOPIC 8: Score: 7
+TOPIC 9: Score: 7
+TOPIC 10: Score: 3
+TOPIC 11: Score: 5
+TOPIC 12: Score: 7
+TOPIC 13: Score: 3
+TOPIC 14: Score: 8
+TOTAL SCORE: 64 OUT OF 675
+
+ ------------------------------------------------ 
+RESULTS FOR 15 TOPICS AND 7 WORDS
+TOPIC 0: Score: 8
+TOPIC 1: Score: 4
+TOPIC 2: Score: 7
+TOPIC 3: Score: 8
+TOPIC 4: Score: 8
+TOPIC 5: Score: 0
+TOPIC 6: Score: 1
+TOPIC 7: Score: 15
+TOPIC 8: Score: 6
+TOPIC 9: Score: 8
+TOPIC 10: Score: 23
+TOPIC 11: Score: 14
+TOPIC 12: Score: 4
+TOPIC 13: Score: 9
+TOPIC 14: Score: 9
+TOTAL SCORE: 124 OUT OF 945
+
+ ------------------------------------------------ 
+RESULTS FOR 15 TOPICS AND 10 WORDS
+TOPIC 0: Score: 13
+TOPIC 1: Score: 7
+TOPIC 2: Score: 12
+TOPIC 3: Score: 22
+TOPIC 4: Score: 12
+TOPIC 5: Score: 27
+TOPIC 6: Score: 21
+TOPIC 7: Score: 19
+TOPIC 8: Score: 17
+TOPIC 9: Score: 14
+TOPIC 10: Score: 22
+TOPIC 11: Score: 36
+TOPIC 12: Score: 4
+TOPIC 13: Score: 36
+TOPIC 14: Score: 28
+TOTAL SCORE: 290 OUT OF 1350
+
+ ------------------------------------------------ 
+RESULTS FOR 20 TOPICS AND 3 WORDS
+TOPIC 0: Score: 0
+TOPIC 1: Score: 0
+TOPIC 2: Score: 2
+TOPIC 3: Score: 0
+TOPIC 4: Score: 0
+TOPIC 5: Score: 0
+TOPIC 6: Score: 1
+TOPIC 7: Score: 1
+TOPIC 8: Score: 1
+TOPIC 9: Score: 1
+TOPIC 10: Score: 1
+TOPIC 11: Score: 2
+TOPIC 12: Score: 1
+TOPIC 13: Score: 2
+TOPIC 14: Score: 0
+TOPIC 15: Score: 3
+TOPIC 16: Score: 1
+TOPIC 17: Score: 2
+TOPIC 18: Score: 1
+TOPIC 19: Score: 3
+TOTAL SCORE: 22 OUT OF 540
+
+ ------------------------------------------------ 
+RESULTS FOR 20 TOPICS AND 5 WORDS
+TOPIC 0: Score: 0
+TOPIC 1: Score: 1
+TOPIC 2: Score: 6
+TOPIC 3: Score: 6
+TOPIC 4: Score: 4
+TOPIC 5: Score: 0
+TOPIC 6: Score: 6
+TOPIC 7: Score: 14
+TOPIC 8: Score: 3
+TOPIC 9: Score: 8
+TOPIC 10: Score: 9
+TOPIC 11: Score: 11
+TOPIC 12: Score: 7
+TOPIC 13: Score: 6
+TOPIC 14: Score: 13
+TOPIC 15: Score: 13
+TOPIC 16: Score: 8
+TOPIC 17: Score: 16
+TOPIC 18: Score: 14
+TOPIC 19: Score: 0
+TOTAL SCORE: 145 OUT OF 900
+
+ ------------------------------------------------ 
+RESULTS FOR 20 TOPICS AND 7 WORDS
+TOPIC 0: Score: 4
+TOPIC 1: Score: 10
+TOPIC 2: Score: 3
+TOPIC 3: Score: 6
+TOPIC 4: Score: 3
+TOPIC 5: Score: 9
+TOPIC 6: Score: 14
+TOPIC 7: Score: 9
+TOPIC 8: Score: 5
+TOPIC 9: Score: 8
+TOPIC 10: Score: 4
+TOPIC 11: Score: 16
+TOPIC 12: Score: 12
+TOPIC 13: Score: 19
+TOPIC 14: Score: 15
+TOPIC 15: Score: 17
+TOPIC 16: Score: 32
+TOPIC 17: Score: 18
+TOPIC 18: Score: 15
+TOPIC 19: Score: 30
+TOTAL SCORE: 249 OUT OF 1260
+
+ ------------------------------------------------ 
+RESULTS FOR 20 TOPICS AND 10 WORDS
+TOPIC 0: Score: 18
+TOPIC 1: Score: 26
+TOPIC 2: Score: 13
+TOPIC 3: Score: 10
+TOPIC 4: Score: 12
+TOPIC 5: Score: 23
+TOPIC 6: Score: 15
+TOPIC 7: Score: 2
+TOPIC 8: Score: 28
+TOPIC 9: Score: 16
+TOPIC 10: Score: 47
+TOPIC 11: Score: 14
+TOPIC 12: Score: 18
+TOPIC 13: Score: 35
+TOPIC 14: Score: 34
+TOPIC 15: Score: 45
+TOPIC 16: Score: 36
+TOPIC 17: Score: 24
+TOPIC 18: Score: 31
+TOPIC 19: Score: 36
+TOTAL SCORE: 483 OUT OF 1800

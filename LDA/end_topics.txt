@@ -1,0 +1,40 @@
+TOPIC 1
+["'popul'", "'consid'", "'immun'", "'infect'", "'natur'", "'would'", "'sever'", "'diseas'", "'benefit'", "'equal'"]
+TOPIC 2
+["'benefit'", "'natur'", "'consid'", "'would'", "'restrict'", "'infect'", "'educ'", "'agre'", "'equal'", "'sever'"]
+TOPIC 3
+["'popul'", "'educ'", "'consid'", "'boost'", "'infect'", "'agre'", "'natur'", "'requir'", "'wasnt'", "'though'"]
+TOPIC 4
+["'capac'", "'popul'", "'inform'", "'comm'", "'restrict'", "'lockdown'", "'equal'", "'risk'", "'infect'", "'immun'"]
+TOPIC 5
+["'pfizer'", "'dose'", "'fulli'", "'consid'", "'acceler'", "'normal'", "'tomorrow'", "'benefit'", "'assum'", "'equal'"]
+TOPIC 6
+["'equal'", "'fulli'", "'immun'", "'tomorrow'", "'assum'", "'benefit'", "'pfizer'", "'second'", "'normal'", "'dose'"]
+TOPIC 7
+["'still'", "'capac'", "'agre'", "'incid'", "'infect'", "'adjust'", "'restrict'", "'wasnt'", "'inform'", "'materi'"]
+TOPIC 8
+["'assum'", "'dose'", "'fulli'", "'pfizer'", "'acceler'", "'normal'", "'second'", "'risk'", "'equal'", "'still'"]
+TOPIC 9
+["'normal'", "'programm'", "'return'", "'develop'", "'pfizer'", "'rapid'", "'acceler'", "'popul'", "'equal'", "'dose'"]
+TOPIC 10
+["'dose'", "'benefit'", "'consid'", "'natur'", "'would'", "'assum'", "'requir'", "'immun'", "'still'", "'agre'"]
+TOPIC 11
+["'assum'", "'fulli'", "'pfizer'", "'tomorrow'", "'natur'", "'benefit'", "'second'", "'dose'", "'return'", "'normal'"]
+TOPIC 12
+["'still'", "'assum'", "'popul'", "'equal'", "'would'", "'lockdown'", "'infect'", "'sever'", "'consid'", "'natur'"]
+TOPIC 13
+["'equal'", "'assum'", "'fulli'", "'pfizer'", "'dose'", "'tomorrow'", "'infect'", "'benefit'", "'second'", "'normal'"]
+TOPIC 14
+["'programm'", "'acceler'", "'return'", "'fulli'", "'pfizer'", "'normal'", "'tomorrow'", "'develop'", "'natur'", "'second'"]
+TOPIC 15
+["'normal'", "'return'", "'acceler'", "'programm'", "'second'", "'develop'", "'pfizer'", "'assum'", "'rapid'", "'topic'"]
+TOPIC 16
+["'develop'", "'today'", "'1700'", "'rapid'", "'return'", "'topic'", "'dose'", "'programm'", "'normal'", "'acceler'"]
+TOPIC 17
+["'normal'", "'second'", "'develop'", "'programm'", "'acceler'", "'return'", "'topic'", "'rapid'", "'natur'", "'1700'"]
+TOPIC 18
+["'second'", "'pfizer'", "'tomorrow'", "'assum'", "'immun'", "'acceler'", "'return'", "'rapid'", "'programm'", "'develop'"]
+TOPIC 19
+["'tomorrow'", "'pfizer'", "'second'", "'develop'", "'acceler'", "'normal'", "'programm'", "'return'", "'dose'", "'risk'"]
+TOPIC 19
+["'second'", "'programm'", "'tomorrow'", "'return'", "'develop'", "'acceler'", "'normal'", "'assum'", "'immun'", "'equal'"]

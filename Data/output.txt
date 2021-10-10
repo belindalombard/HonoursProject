@@ -1,21 +1,21 @@
 OUTPUT FILE
 
 Total number of tweets collected is: 
-5000
+200000
 
 Tweets posted per day: 
-{'2021-09-30': 731, '2021-09-29': 3816, '2021-09-28': 453}
+{'2021-10-01': 88236, '2021-10-02': 12041, '2021-09-30': 65310, '2021-09-29': 34405, '2021-09-28': 8}
 
 Proportion of tweets with location tags: 
-0.9948
+0.997305
 
 
 Number of tweets after removing duplicates: 
-2548
+8892
 
 Number of tweets with South Africa in location: 
-1498
+6039
 
 Number of tweets per day in South Africa: 
-{'2021-09-30': 253, '2021-09-29': 1136, '2021-09-28': 109}
+{'2021-09-30': 2022, '2021-09-29': 1150, '2021-09-28': 1, '2021-10-01': 1986, '2021-10-02': 880}
 

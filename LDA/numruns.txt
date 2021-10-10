@@ -1,0 +1,222 @@
+
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.30864197530864196
+Proportion of words reassigned: 0.01992696922274387
+Proportion of words reassigned: 0.0005564249695705095
+Proportion of words reassigned: 0.00013910624239262738
+Proportion of words reassigned: 0.0
+Number of runs: 5for number of topics 2
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.4844027125717267
+Proportion of words reassigned: 0.035819857416101546
+Proportion of words reassigned: 0.0038949747869935665
+Proportion of words reassigned: 0.0007998608937576074
+Proportion of words reassigned: 0.00010432968179447053
+Proportion of words reassigned: 0.0
+Number of runs: 6for number of topics 4
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.5460267779516605
+Proportion of words reassigned: 0.044896539732220485
+Proportion of words reassigned: 0.006016344983481134
+Proportion of words reassigned: 0.0007650843331594505
+Proportion of words reassigned: 0.00027821248478525476
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 0.0
+Number of runs: 7for number of topics 6
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.5874804381846636
+Proportion of words reassigned: 0.055572943835854635
+Proportion of words reassigned: 0.00879846983133368
+Proportion of words reassigned: 0.0019474873934967833
+Proportion of words reassigned: 0.00045209528777603896
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 0.0
+Number of runs: 7for number of topics 8
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6040340810293862
+Proportion of words reassigned: 0.06068509824378369
+Proportion of words reassigned: 0.012102243088158582
+Proportion of words reassigned: 0.0022604764388801948
+Proportion of words reassigned: 0.0005912015301686663
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 0.0
+Number of runs: 9for number of topics 10
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6091114588767171
+Proportion of words reassigned: 0.06016344983481134
+Proportion of words reassigned: 0.012936880542514346
+Proportion of words reassigned: 0.00539036689271431
+Proportion of words reassigned: 0.0014606155451225874
+Proportion of words reassigned: 0.0006259780907668231
+Proportion of words reassigned: 0.00010432968179447053
+Proportion of words reassigned: 0.0
+Number of runs: 8for number of topics 12
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6224656581464093
+Proportion of words reassigned: 0.06979655712050079
+Proportion of words reassigned: 0.01759693966266736
+Proportion of words reassigned: 0.0056685793774995654
+Proportion of words reassigned: 0.002225699878282038
+Proportion of words reassigned: 0.000869414014953921
+Proportion of words reassigned: 0.00031298904538341156
+Proportion of words reassigned: 0.00013910624239262738
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 0.0
+Number of runs: 10for number of topics 14
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6236480612067467
+Proportion of words reassigned: 0.06673621978786298
+Proportion of words reassigned: 0.01683185532950791
+Proportion of words reassigned: 0.0059815684228829765
+Proportion of words reassigned: 0.0018083811511041558
+Proportion of words reassigned: 0.00013910624239262738
+Proportion of words reassigned: 0.0
+Number of runs: 7for number of topics 16
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6280646844027126
+Proportion of words reassigned: 0.0698661102416971
+Proportion of words reassigned: 0.02215266910102591
+Proportion of words reassigned: 0.008172491740566858
+Proportion of words reassigned: 0.0030255607720396454
+Proportion of words reassigned: 0.0010780733785428621
+Proportion of words reassigned: 0.0006259780907668231
+Proportion of words reassigned: 0.0
+Number of runs: 8for number of topics 18
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6261867501304121
+Proportion of words reassigned: 0.0701790992870805
+Proportion of words reassigned: 0.023856720570335593
+Proportion of words reassigned: 0.006885758998435055
+Proportion of words reassigned: 0.002712571726656234
+Proportion of words reassigned: 0.0012519561815336462
+Proportion of words reassigned: 0.0003477656059815684
+Proportion of words reassigned: 0.0003477656059815684
+Proportion of words reassigned: 0.0
+Number of runs: 9for number of topics 20
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6260824204486176
+Proportion of words reassigned: 0.07664753955833768
+Proportion of words reassigned: 0.026708398539384455
+Proportion of words reassigned: 0.010641627543035994
+Proportion of words reassigned: 0.0048339419231438014
+Proportion of words reassigned: 0.0019127108328986263
+Proportion of words reassigned: 0.0010085202573465485
+Proportion of words reassigned: 0.00027821248478525476
+Proportion of words reassigned: 0.00031298904538341156
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 0.0
+Number of runs: 12for number of topics 22
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6278908015997218
+Proportion of words reassigned: 0.07838636758824552
+Proportion of words reassigned: 0.02368283776734481
+Proportion of words reassigned: 0.010502521300643367
+Proportion of words reassigned: 0.004555729438358546
+Proportion of words reassigned: 0.0013910624239262736
+Proportion of words reassigned: 0.0011476264997391757
+Proportion of words reassigned: 0.0008346374543557642
+Proportion of words reassigned: 0.00027821248478525476
+Proportion of words reassigned: 0.00027821248478525476
+Proportion of words reassigned: 0.0003477656059815684
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 0.0
+Number of runs: 15for number of topics 24
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6248652408276821
+Proportion of words reassigned: 0.07348287254390541
+Proportion of words reassigned: 0.01961398017736046
+Proportion of words reassigned: 0.006850982437836898
+Proportion of words reassigned: 0.0026777951660580768
+Proportion of words reassigned: 0.0014606155451225874
+Proportion of words reassigned: 0.00027821248478525476
+Proportion of words reassigned: 0.0002434359241870979
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 6.955312119631369e-05
+Proportion of words reassigned: 0.0
+Number of runs: 11for number of topics 26
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6303599374021909
+Proportion of words reassigned: 0.07803860198226395
+Proportion of words reassigned: 0.023648061206746653
+Proportion of words reassigned: 0.010363415058250738
+Proportion of words reassigned: 0.0031646670144322726
+Proportion of words reassigned: 0.00066075465136498
+Proportion of words reassigned: 0.0005564249695705095
+Proportion of words reassigned: 0.00045209528777603896
+Proportion of words reassigned: 0.0001738828029907842
+Proportion of words reassigned: 0.0
+Number of runs: 10for number of topics 28
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6223265519040166
+Proportion of words reassigned: 0.07376108502869066
+Proportion of words reassigned: 0.02062250043470701
+Proportion of words reassigned: 0.007894279255781603
+Proportion of words reassigned: 0.0038601982263954094
+Proportion of words reassigned: 0.0016344983481133715
+Proportion of words reassigned: 0.0004173187271778821
+Proportion of words reassigned: 0.0001738828029907842
+Proportion of words reassigned: 0.00013910624239262738
+Proportion of words reassigned: 0.0
+Number of runs: 10for number of topics 30
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6230220831159798
+Proportion of words reassigned: 0.07796904886106765
+Proportion of words reassigned: 0.024169709615719005
+Proportion of words reassigned: 0.008902799513128152
+Proportion of words reassigned: 0.002921231090245175
+Proportion of words reassigned: 0.001564945226917058
+Proportion of words reassigned: 0.0006259780907668231
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 0.0
+Number of runs: 9for number of topics 32
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6224656581464093
+Proportion of words reassigned: 0.08367240479916536
+Proportion of words reassigned: 0.026360632933402888
+Proportion of words reassigned: 0.011337158754999131
+Proportion of words reassigned: 0.003512432620413841
+Proportion of words reassigned: 0.0006955312119631368
+Proportion of words reassigned: 0.0002434359241870979
+Proportion of words reassigned: 0.0
+Number of runs: 8for number of topics 34
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6181533646322379
+Proportion of words reassigned: 0.07796904886106765
+Proportion of words reassigned: 0.021318031646670146
+Proportion of words reassigned: 0.008415927664753955
+Proportion of words reassigned: 0.0028864545296470178
+Proportion of words reassigned: 0.0007303077725612937
+Proportion of words reassigned: 0.00013910624239262738
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 0.0
+Number of runs: 9for number of topics 36
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6176664927838637
+Proportion of words reassigned: 0.07803860198226395
+Proportion of words reassigned: 0.025734654842636064
+Proportion of words reassigned: 0.012832550860719875
+Proportion of words reassigned: 0.005529473135106938
+Proportion of words reassigned: 0.002921231090245175
+Proportion of words reassigned: 0.0008346374543557642
+Proportion of words reassigned: 0.0005216484089723526
+Proportion of words reassigned: 0.0001738828029907842
+Proportion of words reassigned: 0.00010432968179447053
+Proportion of words reassigned: 3.4776560598156845e-05
+Proportion of words reassigned: 0.0
+Number of runs: 12for number of topics 38
+LOOKING AT NUMBER OF RUNS
+Proportion of words reassigned: 0.6197530864197531
+Proportion of words reassigned: 0.07223091636237176
+Proportion of words reassigned: 0.022256998782820378
+Proportion of words reassigned: 0.008763693270735524
+Proportion of words reassigned: 0.0036515388628064684
+Proportion of words reassigned: 0.001564945226917058
+Proportion of words reassigned: 0.00045209528777603896
+Proportion of words reassigned: 0.00020865936358894105
+Proportion of words reassigned: 0.0
+Number of runs: 9for number of topics 40

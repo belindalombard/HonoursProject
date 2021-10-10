@@ -40,7 +40,7 @@ def removeShortWords(tweets):
     for t in tweets: 
         row=[]
         for w in t:
-            if len(w)>=5:
+            if len(w)>=4:
                 row.append(w)
         out.append(row)
     return out
@@ -71,8 +71,6 @@ def lemmatize(tweets):
 
 #Remove Stopwrds
 def stopwrds(tweets):
-    lemmatizer = WordNetLemmatizer()
-
     out=[]
     for t in tweets: 
         row=[]

@@ -15,10 +15,13 @@ def removeMoreThan(dictionary):
         return dictionary
     t = numberOfWords(dictionary)
     remove_thres = t/100
+    print("REMOVED WORDS BECAUSE OF HIGH FREQUENCY")
     new_dic = {}
     for key, value in dictionary.items():
         if value <= remove_thres: 
             new_dic[key]=value
+        else:
+            print(key) 
     return new_dic 
 
 
@@ -28,10 +31,17 @@ def removeWordsLessThan(dictionary):
     if n <= 0 :
         return dictionary
     new_dic = {}
+    removed = []
+    print(("REMOVED WORDS BECAUSE OF LOW FREQUENCY"))
     for key, value in dictionary.items():
         if value >= n: 
             new_dic[key]=value
+        else: 
+            removed.append(key) 
+    removed.sort()
+    print(removed)
     return new_dic 
+
 
 #Finally, remove the words from the data that aren't in the dictionary anymore
 def removeWords(dictionary,data):
