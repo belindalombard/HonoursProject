@@ -1,3 +1,12 @@
+###PARAMETERS
+iterations = 20
+alpha = 0.01 #Hyperparameter
+beta = 0.3 #Hyperparameter
+n = 10 #Number of words to get from each topic
+nruns = 10 #Number of runs 
+#----------------------------------------------
+
+
 from usefulFunctions import getData
 from random import randrange
 import numpy as np
@@ -57,7 +66,7 @@ def calculate_word_topic_prob(topic_word, beta, word_number, tweet_number, data,
     probability_den = number_of_words_in_tweet + dict_length*beta
     return probability_num/probability_den
 
-def reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alpha=0.01, beta=0.3): 
+def reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alpha, beta): 
     tweet_number = 0
     dict_length = len(words)
     reassign = 0  # NOT ESSENTIAL, TESTING
@@ -125,7 +134,7 @@ def numberOfRunsEst(topic_word, tweet_topic, data, topic_assignment, T, words):
     prop = 1
     runs = 0
     while (prop != 0): 
-        topic_word, tweet_topic, topic_assignment, prop = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, 0.01, 0.3)
+        topic_word, tweet_topic, topic_assignment, prop = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alpha, beta)
         runs += 1
     print("Number of runs: " + str(runs) + 'for number of topics ' + str(T))
 
@@ -146,7 +155,7 @@ def con(data, T, P, NumRuns = 20):
         topic_word = createTopicWordMatrix(data, T, topic_assignment, number_of_words, words) 
 
         for k in range(NumRuns): 
-            topic_word, tweet_topic, topic_assignment, prop = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, 0.01, 0.3)
+            topic_word, tweet_topic, topic_assignment, prop = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alpha, beta)
         res.append(getTopicAssignment(topic_word, words, P))
     countConsistencyScore(res, P)
           
@@ -167,8 +176,7 @@ def LDA():
                 break
     if len(sys.argv) > 2:
         arg = sys.argv[2]
-        if int(arg) == 0: 
-            print("LOOKING AT NUMBER OF RUNS")
+        if int(arg) == 0:  #NUMBER OF REQUIRED ITERATIONS ESTIMATED
             topic_assignment = assignRandomTopics(data, T)
             tweet_topic = createTweetTopicMatrix(T, topic_assignment) 
             np.set_printoptions(threshold=np.inf)
@@ -180,8 +188,23 @@ def LDA():
             topic_word = createTopicWordMatrix(data, T, topic_assignment, number_of_words, words) 
             numberOfRunsEst(topic_word, tweet_topic, data, topic_assignment, T, words)
 
-        if int(arg) == 1:
+        if int(arg) == 1: #CONSISTENCY SCORES CALCULATED
             P = int(sys.argv[3])
             con(data, T, P, 5)
-         
+    
+    elif len(sys.argv)==1: #RUN NORMAL LDA ONCE 
+        topic_assignment = assignRandomTopics(data, T)
+        tweet_topic = createTweetTopicMatrix(T, topic_assignment) 
+        dictionary = getDictionary(data)
+        words = list(dictionary.keys())
+        number_of_words = len(words)  
+        topic_word = createTopicWordMatrix(data, T, topic_assignment, number_of_words, words) 
+        
+        for i in range(iterations):
+            print("Iteration: " + str(i))
+            topic_word, tweet_topic, topic_assignment, prop = reassignWords(topic_word, tweet_topic, data, topic_assignment, T, words, alpha, beta)
+        
+        print(outputTopicAssignment(topic_word, words, n))
+
+ 
 LDA()

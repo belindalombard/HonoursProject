@@ -1,8 +1,10 @@
+#PARAMETERS: 
+location_search = 'south africa'
 
+#------------------------------------#
 import json
 
 f = open("SATweets.json", "w")
-
 json_entries = []
 
 def getSATweets(filename):
@@ -11,7 +13,7 @@ def getSATweets(filename):
         for tweet in d:
             #print(tweet)
             location = tweet['location']
-            if "south africa" in location.lower():
+            if location_search.lower() in location.lower():
                 global totalLocation
                 json_entries.append(tweet)
 

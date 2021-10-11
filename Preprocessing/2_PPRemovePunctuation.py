@@ -2,7 +2,9 @@ import re #regular expressions package
 
 from usefulFunctions import stringToList
 from usefulFunctions import printDataInNiceWay  
+from usefulFunctions import getSeperator
 
+sep = getSeperator()
 
 def getData(): 
     with open("1_rawTweetTextAsList.txt", "r") as tweet_file:
@@ -89,5 +91,5 @@ data = lowerCase(data)
 
 f = open("2_PreprocessedData.txt", "w")
 
-f.write("#####".join(data))
+f.write(sep.join(data))
 f.close()

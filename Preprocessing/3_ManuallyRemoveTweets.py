@@ -1,9 +1,11 @@
 from usefulFunctions import stringToList 
+from usefulFunctions import getSeperator
 
+sep = getSeperator()
 
 def writeToFile(tweets):
     a = open("3_Tweets.txt", "a") 
-    a.write("#####".join(tweets)+'#####')
+    a.write(sep.join(tweets)+sep)
     a.close()
 
 

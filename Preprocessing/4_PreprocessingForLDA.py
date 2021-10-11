@@ -2,9 +2,12 @@
 import re
 from usefulFunctions import stringToList
 from usefulFunctions import printDataInNiceWay  
+from usefulFunctions import getSeperator
 from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
+
+sep = getSeperator()
 
 def getData(): 
     with open("3_Tweets.txt","r") as tweet_file:
@@ -81,8 +84,6 @@ def stopwrds(tweets):
     return out
 
 
-    
-
 #Print tweets (this is just for testing purposes)
 def printList(tweets):
     for row in tweets:
@@ -94,7 +95,7 @@ def writeData(tweets):
     add = []
     for t in tweets: 
         add.append("|".join(t))
-    f.write("#####".join(add))
+    f.write(sep.join(add))
     f.close()
 
 def removeBlanks(tweets):
@@ -120,7 +121,6 @@ tweets = stem(tweets)
 tweets = stopwrds(tweets)
 tweets = removeBlanks(tweets)
 writeData(tweets)
-#printList(tweets)
 
 
 

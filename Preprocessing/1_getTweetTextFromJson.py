@@ -1,5 +1,6 @@
 import json
 import sys 
+from usefulFunctions import getSeperator
 
 f = open("1_rawTweetTextAsList.txt", "w") #List seperating tweets with "#####"
 f2 = open("1_rawTweetsInReadableFormat.txt", "w") #Open tweets in a more readable format
@@ -7,7 +8,7 @@ f2 = open("1_rawTweetsInReadableFormat.txt", "w") #Open tweets in a more readabl
 count=0
 
 #Seperator: 
-sep = "#####"
+sep = getSeperator()
 
 #Write tweet text to a raw format
 def writeTweets():
